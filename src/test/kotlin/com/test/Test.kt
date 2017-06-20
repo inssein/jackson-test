@@ -27,6 +27,7 @@ internal class DummyDocument : DocumentSingleResponse {
         return "test"
     }
 
+    // to get the test to compile, uncomment the following lines:
 //    override fun getIncluded(): List<String> {
 //        return listOf("test")
 //    }
